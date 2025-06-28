@@ -72,6 +72,8 @@ function getCoordinates() {
 
       _latitude = null;
       _longitude = null;
+    }).catch( (err) =>{
+      errorDisplay.innerText = `Unexpected Error Occure`;
     });
 }
 
